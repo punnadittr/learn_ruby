@@ -1,3 +1,4 @@
 class Timer
-  #write your code here
+  attr_accessor :time_string
+  def seconds
 end
