@@ -27,7 +27,7 @@ def titleize(string)
     string_array.each_with_index do |word, index|
       if index == 0
         joined_array.push(word.capitalize)
-      elsif little_words.include? word and index > 0
+      elsif little_words.include? word
         joined_array.push(word)
       else
         joined_array.push(word.capitalize)
